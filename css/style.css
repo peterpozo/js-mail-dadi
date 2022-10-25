@@ -1,0 +1,28 @@
+.panel-body{
+    padding: 12%;
+    margin-top: 10%;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width: 40%;
+}
+
+.dice-area{
+    margin: 0px 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+p{
+    font-size: 2rem;
+}
+
