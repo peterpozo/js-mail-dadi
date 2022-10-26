@@ -7,7 +7,7 @@
 }
 
 .wrapper{
-    width: 70%;
+    padding: 12%;
     margin: auto;
     text-align: center;
 }
@@ -16,13 +16,6 @@ img{
     width: 40%;
 }
 
-.dice-area{
-    margin: 0px 50px;
-    text-align: center;
-    display: inline-block;
-}
-
 p{
     font-size: 2rem;
 }
-

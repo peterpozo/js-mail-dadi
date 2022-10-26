@@ -2,18 +2,17 @@
 
 const mailList = ["peterpozo@gmail.com", 'peterpozo@hotmail.com', 'mariorossi@gmail.com', 'francescototti@hotmail.com', 'lionelmessi@gmail.com']
 const accedi = document.getElementById("accedi")
-const diceGame = document.getElementById("dice-game")
 accedi.addEventListener('click', 
     function() {
         const mail = document.getElementById("mail").value;
         if(mailList.includes(mail)) {
-                console.log("Email valida. Benvenuto!")
-                diceGame.classList.remove('hidden')
+            console.log("Email valida. Benvenuto!")
+            alert("Inizia ora!")
         }
         else{
-                console.log("Email non valida. Riprovare.")
-                alert("Non puoi giocare se non sei iscritto!")
-                diceGame.classList.add('hidden')
+            console.log("Email non valida. Riprovare.")
+            alert("Non puoi giocare se non sei iscritto!")
+            
         }
     }
 );
